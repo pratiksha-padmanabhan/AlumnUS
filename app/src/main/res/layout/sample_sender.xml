@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:maxWidth="310dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_sender"
+    android:layout_marginLeft="110dp"
+    android:maxHeight="400dp"
+    android:minHeight="30dp"
+    android:layout_marginTop="15dp"
+    >
+    <TextView
+        android:id="@+id/senderText"
+        android:maxHeight="500dp"
+        android:minHeight="30dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="7.5dp"
+        android:paddingBottom="7.5dp"
+        android:paddingRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+
+        android:hint="hey"
+        android:maxWidth="300dp"
+        android:textSize="20dp"
+        android:minWidth="50dp"
+        android:inputType="textMultiLine|textLongMessage"/>
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:maxWidth="310dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginEnd="7dp"
+    android:layout_marginRight="7dp"
+    android:minHeight="30dp"
+    android:background="@drawable/bg_reciever"
+
+    >
+    <TextView
+        android:id="@+id/recieverText"
+
+        android:minHeight="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+        android:layout_margin="8dp"
+
+        android:paddingLeft="15dp"
+        android:paddingTop="7.5dp"
+        android:paddingBottom="7.5dp"
+        android:paddingRight="15dp"
+
+android:hint="hey"
+        android:maxWidth="270dp"
+        android:textSize="20dp"
+        android:minWidth="50dp"
+        android:inputType="textMultiLine|textLongMessage"/>
+
+</RelativeLayout>
+

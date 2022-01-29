@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gb"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="AlumnUS"
+            android:textSize="50dp"
+            android:textColor="@color/golden"
+            android:fontFamily="@font/dancingscript"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/birddd"
+            android:layout_marginTop="125dp"
+            android:layout_marginLeft="115dp"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/username"
+            android:layout_marginTop="310dp"
+            android:hint="Username"
+            android:background="@drawable/borderright"
+            android:paddingLeft="20dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:layout_marginLeft="110dp"
+
+            />
+        <EditText
+            android:layout_width="330dp"
+            android:layout_height="70dp"
+            android:id="@+id/etEmail"
+            android:layout_marginTop="410dp"
+            android:hint="E-mail address"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/borderleft"
+            android:paddingLeft="30dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/etpassword"
+            android:layout_marginTop="510dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:background="@drawable/borderright"
+            android:paddingLeft="20dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:layout_marginLeft="110dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvalreadyaccount"
+            android:text="Already have an account? Sign in instead!"
+            android:layout_marginTop="600dp"
+            android:textColor="@color/golden"
+            android:layout_marginLeft="150dp"
+            />
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSignUp"
+            android:text="sign up"
+            android:layout_marginTop="650dp"
+            android:backgroundTint="@color/gb"
+
+            android:textColor="@color/golden"
+            android:fontFamily="@font/dancingscript"
+            android:textStyle="bold"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/borderbutton"
+            />
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

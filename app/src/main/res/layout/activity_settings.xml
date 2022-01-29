@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    android:background="@color/gb">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Settings"
+        android:textSize="50dp"
+        android:textColor="@color/golden"
+        android:fontFamily="@font/dancingscript"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="120dp"
+        />
+    <ImageView
+        android:background="@color/white"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="115dp"
+        android:id="@+id/profilepic"
+        android:src="@drawable/plus"
+
+        />
+
+    <ImageView
+        android:id="@+id/plus"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="342dp"
+        android:layout_marginEnd="57dp"
+        android:src="@drawable/plus" />
+    <RelativeLayout
+        android:background="@color/gb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="395dp"
+        >
+
+        <EditText
+            android:id="@+id/etuname"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="22.5dp"
+            android:hint=" Enter username"
+            android:textSize="20dp"
+            android:textAllCaps="true"
+            android:layout_marginLeft="160dp"
+            android:background="@drawable/borderright"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+        ></EditText>
+
+
+        <EditText
+            android:id="@+id/etcol"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="92.5dp"
+            android:hint=" Last educated institution "
+            android:textSize="20dp"
+            android:textAllCaps="true"
+
+            android:background="@drawable/borderleft"
+            android:paddingLeft="20dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            ></EditText>
+
+
+
+        <EditText
+            android:id="@+id/etjob"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="162.5dp"
+            android:hint=" Current Job"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            style="bold"
+            android:textSize="20dp"
+            android:textAllCaps="true"
+            android:layout_marginLeft="160dp"
+            android:background="@drawable/borderright"
+            android:paddingLeft="15dp"
+
+            ></EditText>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="save changes"
+            android:layout_marginTop="250dp"
+            android:backgroundTint="@color/golden"
+            android:id="@+id/btnsave"
+            android:textColor="@color/golden"
+            android:fontFamily="@font/dancingscript"
+            android:textStyle="bold"
+            android:layout_marginLeft="120dp"
+            android:background="@drawable/borderbutton"
+            />
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+

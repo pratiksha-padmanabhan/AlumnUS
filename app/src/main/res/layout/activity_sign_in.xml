@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gb"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="AlumnUS"
+            android:textSize="50dp"
+            android:textColor="@color/golden"
+            android:fontFamily="@font/dancingscript"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+            />
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/birddd"
+            android:layout_marginTop="125dp"
+            android:layout_marginLeft="115dp"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/etEmail"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="110dp"
+            android:hint="     E-mail address"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/borderright"
+            android:paddingLeft="5dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            ></EditText>
+        <EditText
+            android:layout_width="330dp"
+            android:layout_height="70dp"
+            android:id="@+id/etpassword"
+            android:layout_marginTop="450dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:background="@drawable/borderleft"
+            android:paddingLeft="25dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            ></EditText>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvclicksignup"
+            android:text="Dont have an account? Sign Up Instead!"
+            android:layout_marginTop="530dp"
+            android:textColor="@color/golden"
+            android:layout_marginLeft="100dp"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/dancingscript"
+
+            />
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:id="@+id/btnSignin"
+            android:text="sign In"
+            android:layout_marginTop="610dp"
+            android:textColor="@color/golden"
+            android:fontFamily="@font/dancingscript"
+            android:textStyle="bold"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/borderbutton"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>
